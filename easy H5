@@ -1,1 +1,18 @@
+HTML的框架显示--frameset
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+ <frameset cols="*,*,*"><!--frameset紧贴着head-->
+ <frame>
+ <frameset cols="*,*">
+ 	<frame>
+ </frameset><!--此处与frameset连用，为单标记-->
+ <frame>
+ </frameset>
 
+<body>
+
+</body>
+</html>
